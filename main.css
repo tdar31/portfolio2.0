@@ -6855,7 +6855,8 @@ body {
 
 .nameTxt {
   font-size: 30px;
-  text-shadow: 1px 1px #4e4e4e; }
+  text-shadow: 1px 1px #4e4e4e;
+  margin-bottom: -15px; }
 
 .goals {
   text-align: center;
@@ -6878,6 +6879,15 @@ body {
 
 .resumeText:hover {
   background-color: lightseagreen; }
+
+.imageAnchor {
+  color: black;
+  text-decoration: none; }
+
+.imageAnchor:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
 
 .gitAva {
   margin-top: 6vh; }
