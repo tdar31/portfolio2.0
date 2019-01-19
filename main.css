@@ -6823,7 +6823,6 @@ body {
 
 .projectOne {
   border-radius: 25px;
-  background-color: lightcoral;
   margin-top: 10px; }
 
 .sideColumns {
@@ -6965,6 +6964,18 @@ body {
   left: 735px;
   background-color: transparent;
   z-index: 5; }
+
+.panel {
+  height: 20vh;
+  outline-style: dotted;
+  margin-bottom: 35px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+.panel:hover {
+  background-color: lightgray; }
 
 /* ---- particles.js container ---- */
 #particles-js {
