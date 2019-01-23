@@ -1,0 +1,271 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  overflow: hidden;
+  font-family: "Krub", sans-serif;
+}
+
+.sectionOne {
+  text-align: center;
+  z-index: 100;
+}
+
+// .sectionTwo {
+//   background-image: url('./images/funky-lines.png');
+//   background-attachment: fixed;
+// }
+
+.nameText {
+  top: 0;
+  left: 0;
+  font-size: 25px;
+  color: whitesmoke;
+  margin-top: 3em;
+  margin-bottom: 10px;
+  text-shadow: 3px 4px 5px #000;
+}
+
+.nameText2 {
+  top: 0;
+  left: 0;
+  font-size: 25px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  text-shadow: 3px 4px 5px #000;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+.filler {
+  height: 5vh;
+  z-index: -1;
+}
+
+.containerOne {
+  background-color: #b2b2b2;
+  height: 90vh;
+  border-radius: 25px;
+  z-index: 2;
+  // box-shadow: inset 0px 0px 4px 2px rgb(79, 112, 111);
+}
+
+.containerOne:after {
+  opacity: 0.7;
+}
+
+.projectOne {
+  border-radius: 25px;
+  // background-color: lightcoral;
+  margin-top: 10px;
+}
+
+.sideColumns {
+  background-color: #b2b2b2;
+  height: 90vh;
+  text-align: center;
+  // box-shadow: inset 0px 0px 4px 2px rgb(79, 112, 111);
+}
+
+.sideColumns:after {
+  opacity: 0.7;
+}
+
+.scRight {
+  z-index: 100;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.scLeft {
+  z-index: 100;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.infoContainer {
+  height: 30vh;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 6px solid lightgrey;
+  margin-top: 3vh;
+}
+
+.name {
+  text-align: center;
+}
+
+.nameTxt {
+  font-size: 30px;
+  text-shadow: 1px 1px rgb(78, 78, 78);
+  margin-bottom:-15px
+}
+
+.goals {
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  height: 30vh;
+}
+
+.resumeAva,
+.gitAva,
+.emailAva,
+.linkedAva {
+  // border: 1px solid lightgrey;
+}
+
+.resumeAva {
+  margin-top: 6.5vh;
+}
+
+.resumeText {
+  font-size: 20px;
+  height: 30vh;
+  border-radius: 0px 0px 15px 0px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.resumeText:hover {
+  background-color: lightseagreen;
+}
+
+.imageAnchor {
+  color: black;
+  text-decoration: none;
+}
+
+.imageAnchor:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gitAva {
+  margin-top: 6vh;
+}
+
+.gitText {
+  font-size: 20px;
+  height: 30vh;
+  border-radius: 15px 0px 0px 0px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.gitText:hover {
+  background-color: lightblue;
+}
+
+.emailAva {
+  margin-top: 6.5vh;
+}
+
+.emailText {
+  font-size: 20px;
+  height: 30vh;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.emailText:hover {
+  background-color: lightcoral;
+}
+
+.linkedAva {
+  margin-top: 6.5vh;
+}
+
+.linkedText {
+  font-size: 20px;
+  height: 30vh;
+  border-radius: 0px 0px 0px 15px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.linkedText:hover {
+  background-color: lightgreen;
+}
+
+.triangle1 {
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid rgb(54, 72, 107);
+  border-left: 100vw solid transparent;
+}
+
+.triangle2 {
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  left: 0;
+  border-bottom: 85px solid rgb(54, 72, 107);
+  border-right: 75vw solid transparent;
+}
+
+.retangle1 {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 7px;
+  background-color: rgb(54, 72, 107);
+}
+
+.pull1 {
+  position: absolute;
+  bottom: 0px;
+  width: 75px;
+  height: 50px;
+  left: 735px;
+  background-color: transparent;
+  z-index: 5;
+}
+
+.panel,
+.panel2,
+.panel3 {
+  height: 20vh;
+  outline-style: dotted;
+  margin-bottom: 35px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.panel:hover,
+.panel2:hover,
+.panel3:hover {
+  background-color: lightgray;
+}
+
+.panel {
+  // color: blue;
+  margin-top:30px;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
