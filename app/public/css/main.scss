@@ -1,4 +1,5 @@
-@import "node_modules/bootstrap/scss/bootstrap";
+// @import "node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 
 body {
   overflow: hidden;
@@ -236,27 +237,31 @@ body {
   z-index: 5;
 }
 
-.panel,
-.panel2,
-.panel3 {
-  height: 20vh;
-  outline-style: dotted;
-  margin-bottom: 35px;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
+// .panel,
+// .panel2,
+// .panel3 {
+//   height: 20vh;
+//   outline-style: dotted;
+//   margin-bottom: 35px;
+//   -moz-transition: all 0.3s ease-in;
+//   -o-transition: all 0.3s ease-in;
+//   -webkit-transition: all 0.3s ease-in;
+//   transition: all 0.3s ease-in;
+// }
 
-.panel:hover,
-.panel2:hover,
-.panel3:hover {
-  background-color: lightgray;
-}
+// .panel:hover,
+// .panel2:hover,
+// .panel3:hover {
+//   background-color: lightgray;
+// }
 
-.panel {
-  // color: blue;
-  margin-top:30px;
+// .panel {
+//   // color: blue;
+//   margin-top:30px;
+// }
+
+.tabIndent {
+  margin-left: 35px;
 }
 
 /* ---- particles.js container ---- */
