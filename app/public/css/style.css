@@ -7485,6 +7485,9 @@ body {
   text-align: center;
   z-index: 100; }
 
+.sectionTwo {
+  background: linear-gradient(#36486b, #2f3e5c); }
+
 .nameText {
   top: 0;
   left: 0;

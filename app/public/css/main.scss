@@ -11,10 +11,11 @@ body {
   z-index: 100;
 }
 
-// .sectionTwo {
-//   background-image: url('./images/funky-lines.png');
-//   background-attachment: fixed;
-// }
+.sectionTwo {
+  // background-image: url('./images/funky-lines.png');
+  // background-attachment: fixed;
+  background: linear-gradient(#36486b,#2f3e5c);
+}
 
 .nameText {
   top: 0;
