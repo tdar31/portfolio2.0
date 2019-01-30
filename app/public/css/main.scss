@@ -13,7 +13,6 @@ body {
 
 .sectionTwo {
   // background-image: url('./images/funky-lines.png');
-  // background-attachment: fixed;
   background: linear-gradient(#36486b,#2f3e5c);
 }
 
@@ -50,7 +49,8 @@ body {
   height: 90vh;
   border-radius: 25px;
   z-index: 2;
-  // box-shadow: inset 0px 0px 4px 2px rgb(79, 112, 111);
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333333;
 }
 
 .containerOne:after {
@@ -59,7 +59,6 @@ body {
 
 .projectOne {
   border-radius: 25px;
-  // background-color: lightcoral;
   margin-top: 10px;
 }
 
@@ -67,7 +66,8 @@ body {
   background-color: #b2b2b2;
   height: 90vh;
   text-align: center;
-  // box-shadow: inset 0px 0px 4px 2px rgb(79, 112, 111);
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333333;
 }
 
 .sideColumns:after {
@@ -134,7 +134,7 @@ body {
 }
 
 .resumeText:hover {
-  background-color: lightseagreen;
+  background-color: #618685;
 }
 
 .imageAnchor {
@@ -163,7 +163,7 @@ body {
 }
 
 .gitText:hover {
-  background-color: lightblue;
+  background-color: #618685;
 }
 
 .emailAva {
@@ -180,7 +180,7 @@ body {
 }
 
 .emailText:hover {
-  background-color: lightcoral;
+  background-color: #618685;
 }
 
 .linkedAva {
@@ -198,7 +198,7 @@ body {
 }
 
 .linkedText:hover {
-  background-color: lightgreen;
+  background-color: #618685;
 }
 
 .triangle1 {
@@ -237,29 +237,6 @@ body {
   background-color: transparent;
   z-index: 5;
 }
-
-// .panel,
-// .panel2,
-// .panel3 {
-//   height: 20vh;
-//   outline-style: dotted;
-//   margin-bottom: 35px;
-//   -moz-transition: all 0.3s ease-in;
-//   -o-transition: all 0.3s ease-in;
-//   -webkit-transition: all 0.3s ease-in;
-//   transition: all 0.3s ease-in;
-// }
-
-// .panel:hover,
-// .panel2:hover,
-// .panel3:hover {
-//   background-color: lightgray;
-// }
-
-// .panel {
-//   // color: blue;
-//   margin-top:30px;
-// }
 
 .tabIndent {
   margin-left: 35px;
