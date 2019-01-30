@@ -92,6 +92,8 @@ body {
   border-radius: 50%;
   border: 6px solid lightgrey;
   margin-top: 3vh;
+  -webkit-box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #333333;
 }
 
 .name {
