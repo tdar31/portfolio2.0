@@ -7804,7 +7804,16 @@ p {
   color: #141414;
   font-size: 28px; }
 
-.t {
-  margin-top: 0.5rem; }
+.warningText {
+  font-size: 14px;
+  color: #837676;
+  margin-top: 20px; }
+
+a {
+  color: #333333; }
+
+.hLink {
+  margin-top: 0.5rem;
+  color: #333333; }
 
 /*# sourceMappingURL=style.css.map */

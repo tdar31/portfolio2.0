@@ -13,7 +13,7 @@ body {
 
 .sectionTwo {
   // background-image: url('./images/funky-lines.png');
-  background: linear-gradient(#36486b,#2f3e5c);
+  background: linear-gradient(#36486b, #2f3e5c);
 }
 
 .nameText {
@@ -103,7 +103,7 @@ body {
 .nameTxt {
   font-size: 30px;
   text-shadow: 1px 1px rgb(78, 78, 78);
-  margin-bottom:-15px
+  margin-bottom: -15px;
 }
 
 .goals {
@@ -260,10 +260,21 @@ p {
 }
 
 .SDE {
-  color:#141414;
+  color: #141414;
   font-size: 28px;
 }
 
-.t {
+.warningText {
+  font-size: 14px;
+  color: rgb(131, 118, 118);
+  margin-top: 20px;
+}
+
+a {
+  color: #333333;
+}
+
+.hLink {
   margin-top: 0.5rem;
+  color: #333333;
 }
