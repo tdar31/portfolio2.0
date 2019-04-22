@@ -7669,7 +7669,8 @@ body {
   box-shadow: 0 0 10px #333333; }
 
 .name {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 .nameTxt {
   font-size: 30px;
@@ -7806,8 +7807,14 @@ p {
 
 .warningText {
   font-size: 14px;
-  color: #837676;
-  margin-top: 20px; }
+  color: #3f3030;
+  margin-top: 20px;
+  background-color: #36486b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 395px;
+  width: 225px;
+  border: 2px solid #3f3030; }
 
 a {
   color: #161616; }
