@@ -20,7 +20,7 @@ new fullpage("#fullpage", {
 
 //Triggers side panels to move in
 function onSectionTwoLoad() {
-    console.log("Y");
+    // console.log("Y");
     $(".scRight").removeClass("slideOutRight animated");
     $(".scLeft").removeClass("slideOutLeft animated");
     $(".scRight").addClass("slideInRight animated");
@@ -29,7 +29,7 @@ function onSectionTwoLoad() {
 
 //Relaxes side panels when you scroll back up
 function onSectionOneReturn() {
-    console.log("N");
+    // console.log("N");
     $(".scRight").removeClass("slideInRight animated");
     $(".scLeft").removeClass("slideInLeft animated");
     $(".scRight").addClass("slideOutRight animated");

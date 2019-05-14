@@ -11,6 +11,7 @@
 
 .home-title {
     margin-top: 25vh;
+    font-size: 3vh;
 }
 
 /* title styles */
@@ -120,7 +121,7 @@
     padding: 0.8rem 1rem;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 580px) {
     .btnText {
         margin-bottom: 10px;
     }
