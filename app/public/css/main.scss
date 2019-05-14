@@ -1,6 +1,5 @@
 // @import "node_modules/bootstrap/scss/bootstrap";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-
 body {
     overflow: hidden;
     font-family: "Krub", sans-serif;
@@ -12,7 +11,6 @@ body {
 }
 
 .sectionTwo {
-    // background-image: url('./images/funky-lines.png');
     background: linear-gradient(#36486b, #2f3e5c);
 }
 
@@ -84,50 +82,47 @@ body {
     border-radius: 0px 15px 15px 0px;
 }
 
-.infoContainer {
-    height: 30vh;
-}
-
 .avatar {
     border-radius: 50%;
     border: 6px solid lightgrey;
     margin-top: 3vh;
     -webkit-box-shadow: 0 0 10px #333;
     box-shadow: 0 0 10px #333333;
+    height: 20vh;
+    width: 20vh;
 }
 
 .name {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 
 .nameTxt {
-    font-size: 30px;
-    text-shadow: 1px 1px rgb(78, 78, 78);
+    font-size: 2.2vh;
+    text-shadow: 1px 1px #4e4e4e;
     margin-bottom: -15px;
+}
+
+.infoContainer {
+    height: 30vh;
 }
 
 .goals {
     text-align: center;
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 1.5vh;
     height: 30vh;
-}
-
-.resumeAva,
-.gitAva,
-.emailAva,
-.linkedAva {
-    // border: 1px solid lightgrey;
 }
 
 .resumeAva {
     margin-top: 6.5vh;
+    height: 10vh;
+    width: 10vh;
 }
 
 .resumeText {
-    font-size: 20px;
+    font-size: 3vh;
     height: 30vh;
     border-radius: 0px 0px 15px 0px;
     -moz-transition: all 0.3s ease-in;
@@ -152,11 +147,13 @@ body {
 }
 
 .gitAva {
-    margin-top: 6vh;
+    margin-top: 6.5vh;
+    height: 10vh;
+    width: 10vh;
 }
 
 .gitText {
-    font-size: 20px;
+    font-size: 3vh;
     height: 30vh;
     border-radius: 15px 0px 0px 0px;
     -moz-transition: all 0.3s ease-in;
@@ -171,10 +168,12 @@ body {
 
 .emailAva {
     margin-top: 6.5vh;
+    height: 10vh;
+    width: 10vh;
 }
 
 .emailText {
-    font-size: 20px;
+    font-size: 3vh;
     height: 30vh;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
@@ -188,10 +187,12 @@ body {
 
 .linkedAva {
     margin-top: 6.5vh;
+    height: 10vh;
+    width: 10vh;
 }
 
 .linkedText {
-    font-size: 20px;
+    font-size: 3vh;
     height: 30vh;
     border-radius: 0px 0px 0px 15px;
     -moz-transition: all 0.3s ease-in;
@@ -209,7 +210,7 @@ body {
     bottom: 7px;
     width: 0;
     height: 0;
-    border-bottom: 100px solid rgb(54, 72, 107);
+    border-bottom: 100px solid #36486b;
     border-left: 100vw solid transparent;
 }
 
@@ -219,7 +220,7 @@ body {
     width: 0;
     height: 0;
     left: 0;
-    border-bottom: 85px solid rgb(54, 72, 107);
+    border-bottom: 85px solid #36486b;
     border-right: 75vw solid transparent;
 }
 
@@ -228,7 +229,7 @@ body {
     bottom: 0px;
     width: 100vw;
     height: 7px;
-    background-color: rgb(54, 72, 107);
+    background-color: #36486b;
 }
 
 .pull1 {
@@ -256,15 +257,6 @@ body {
     background-position: 50% 50%;
 }
 
-p {
-    margin-bottom: 0px;
-}
-
-.SDE {
-    color: #141414;
-    font-size: 24px;
-}
-
 .warningText {
     font-size: 14px;
     color: #3f3030;
@@ -281,6 +273,16 @@ a {
     color: #161616;
 }
 
-.hLink {
-    margin-top: 0.5rem;
+.topHeader {
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.secondHeader {
+    font-size: 2vh;
+}
+
+.allText {
+    font-size: 1.4vh;
 }
