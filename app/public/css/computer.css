@@ -79,7 +79,7 @@
   display: inline-block;
   position: relative;
   overflow: hidden;
-  background: #3f3030;
+  /* background: #3f3030; */
   color: #3f3030;
   font-size: 1rem;
   text-transform: uppercase;
@@ -118,4 +118,17 @@
   font-size: 1rem;
   text-transform: uppercase;
   padding: 0.8rem 1rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .btnText {
+      /* font-size: 12px; */
+      margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+.btnText {
+    /* font-size: 8px; */
+}
 }
