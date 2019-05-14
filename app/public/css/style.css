@@ -10358,7 +10358,7 @@ a {
 }
 
 /* SECOND PAGE */
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1919px) {
     .allText {
         font-size: 15px;
     }
@@ -10421,6 +10421,26 @@ a {
     .goals {
         font-size: 12px;
     }
+}
+
+@media only screen and (max-width: 1275px) {
+  .topHeader {
+      font-size: 15px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+  }
+  .secondHeader {
+      font-size: 12px;
+  }
+  .allText {
+      font-size: 11px;
+  }
+  .nameTxt {
+      font-size: 18px;
+  }
+  .goals {
+      font-size: 11px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
