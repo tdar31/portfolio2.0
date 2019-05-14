@@ -10161,7 +10161,7 @@ body {
 }
 
 .nameTxt {
-    font-size: 30px;
+    font-size: 2.2vh;
     text-shadow: 1px 1px #4e4e4e;
     margin-bottom: -15px;
 }
@@ -10174,7 +10174,7 @@ body {
     text-align: center;
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 2vh;
     height: 30vh;
 }
 
@@ -10331,17 +10331,17 @@ a {
 /* ALL NEW BELOW NOT ADDED VIA SASS */
 
 .topHeader {
-    font-size: 24px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .secondHeader {
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 .allText {
-    font-size: 16px;
+    font-size: 1.5vh;
 }
 
 /* FIRST PAGE */
@@ -10355,92 +10355,6 @@ a {
     .home-title {
         font-size: 20px;
     }
-}
-
-/* SECOND PAGE */
-@media only screen and (max-width: 1919px) {
-    .allText {
-        font-size: 15px;
-    }
-    .goals {
-    }
-}
-
-@media only screen and (max-width: 1800px) {
-    .topHeader {
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .secondHeader {
-        font-size: 16px;
-    }
-    .allText {
-      font-size: 14px;
-  }
-    .goals {
-      font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 1650px) {
-    .topHeader {
-        font-size: 18px;
-        margin-top: 6px;
-        margin-bottom: 6px;
-    }
-    .secondHeader {
-      font-size: 14px;
-    }
-    .allText {
-        font-size: 13px;
-    }
-    .nameTxt {
-        font-size: 24px;
-    }
-    .goals {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 1450px) {
-    .topHeader {
-        font-size: 16px;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-    .secondHeader {
-        font-size: 13px;
-    }
-    .allText {
-        font-size: 12px;
-    }
-    .nameTxt {
-        font-size: 20px;
-    }
-    .goals {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 1275px) {
-  .topHeader {
-      font-size: 15px;
-      margin-top: 3px;
-      margin-bottom: 3px;
-  }
-  .secondHeader {
-      font-size: 12px;
-  }
-  .allText {
-      font-size: 11px;
-  }
-  .nameTxt {
-      font-size: 18px;
-  }
-  .goals {
-      font-size: 11px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
