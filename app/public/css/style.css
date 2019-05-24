@@ -10339,17 +10339,22 @@ a {
 .topHeader {
     font-size: 2vh;
     margin-top: 1vh;
-    margin-bottom: 1vh;
+    /* margin-bottom: 1vh; */
 }
 
 .secondHeader {
-    font-size: 2vh;
+    font-size: 1.8vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
+.titleHeader {
+    margin-top: 0.5vh;
+    font-size: 2vh;
+}
+
 .allText {
-    font-size: 1.4vh;
+    font-size: 1.2vh;
 }
 
 /* Warning message */
