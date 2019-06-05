@@ -1,6 +1,5 @@
 
 # Portfolio
+Retired
 
-Personal Site
-
-https://www.tdar.dev/
+https://github.com/tdar31/personal-site
